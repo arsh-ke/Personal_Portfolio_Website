@@ -5,6 +5,25 @@
 A clean, responsive, and modern personal portfolio website built using HTML5, Bootstrap 5, CSS3, JavaScript, and TypeScript. This project is designed to showcase personal skills, projects, contact details, and achievements in a professional way.
 (Portfolio/images/SC-1.png)
 ---
+## 📸 Screenshots
+
+### 1. Hero Section - Profile & Bio and Introduction
+![Hero Section](Portfolio/images/SC-1.png)
+*Displays profile image, name, and animated typewriter subtitle*
+
+### 2. Projects Grid - Portfolio Showcase
+![Projects Section](Portfolio/images/SC-2.png)
+*Dynamic project cards with 6 featured projects*
+
+### 3. Skills Section -  Contact Form - Get in Touch
+![Skills Section](Portfolio/images/SC-3.png)
+*Styled skill names with visual progress bars*
+
+### 4.Dashbord Light Mood
+![Contact Section](Portfolio/images/SC-4.png)
+*Contact form with validation and success alerts*
+
+---
 
 ## 🚀 Features
 
@@ -43,25 +62,7 @@ Personal_Portfolio_Website/
 
 ---
 
-## 📸 Screenshots
 
-### 1. Hero Section - Profile & Bio and Introduction
-![Hero Section](Portfolio/images/SC-1.png)
-*Displays profile image, name, and animated typewriter subtitle*
-
-### 2. Projects Grid - Portfolio Showcase
-![Projects Section](Portfolio/images/SC-2.png)
-*Dynamic project cards with 6 featured projects*
-
-### 3. Skills Section -  Contact Form - Get in Touch
-![Skills Section](Portfolio/images/SC-3.png)
-*Styled skill names with visual progress bars*
-
-### 4.Dashbord Light Mood
-![Contact Section](Portfolio/images/SC-4.png)
-*Contact form with validation and success alerts*
-
----
 
 ## 🔧 Setup & Installation
 
