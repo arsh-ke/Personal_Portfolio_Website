@@ -50,15 +50,15 @@ Personal_Portfolio_Website/
 *Displays profile image, name, and animated typewriter subtitle*
 
 ### 2. Projects Grid - Portfolio Showcase
-![Projects Section](https://via.placeholder.com/800x400?text=Projects+Grid+-+6+Projects)
+![Projects Section](Portfolio/images/SC-2.png)
 *Dynamic project cards with 6 featured projects*
 
-### 3. Skills Section - Technical Competencies
-![Skills Section](https://via.placeholder.com/800x400?text=Skills+Section+-+Progress+Bars)
+### 3. Skills Section -  Contact Form - Get in Touch
+![Skills Section](Portfolio/images/SC-3.png)
 *Styled skill names with visual progress bars*
 
-### 4. Contact Form - Get in Touch
-![Contact Section](https://via.placeholder.com/800x400?text=Contact+Form+-+Message+Input)
+### 4.Dashbord Light Mood
+![Contact Section](Portfolio/images/SC-4.png)
 *Contact form with validation and success alerts*
 
 ---
