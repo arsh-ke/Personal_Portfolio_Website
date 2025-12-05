@@ -3,7 +3,7 @@
 🌐 **Modern Portfolio Website — HTML, Bootstrap, CSS, JS & TypeScript**
 
 A clean, responsive, and modern personal portfolio website built using HTML5, Bootstrap 5, CSS3, JavaScript, and TypeScript. This project is designed to showcase personal skills, projects, contact details, and achievements in a professional way.
-
+(Portfolio/images/SC-1.png)
 ---
 
 ## 🚀 Features
@@ -45,8 +45,8 @@ Personal_Portfolio_Website/
 
 ## 📸 Screenshots
 
-### 1. Hero Section - Profile & Introduction
-![Hero Section](https://via.placeholder.com/800x400?text=Hero+Section+-+Profile+%26+Introduction)
+### 1. Hero Section - Profile & Bio and Introduction
+![Hero Section](Portfolio/images/SC-1.png)
 *Displays profile image, name, and animated typewriter subtitle*
 
 ### 2. Projects Grid - Portfolio Showcase
