@@ -43,6 +43,26 @@ Personal_Portfolio_Website/
 
 ---
 
+## 📸 Screenshots
+
+### 1. Hero Section - Profile & Introduction
+![Hero Section](https://via.placeholder.com/800x400?text=Hero+Section+-+Profile+%26+Introduction)
+*Displays profile image, name, and animated typewriter subtitle*
+
+### 2. Projects Grid - Portfolio Showcase
+![Projects Section](https://via.placeholder.com/800x400?text=Projects+Grid+-+6+Projects)
+*Dynamic project cards with 6 featured projects*
+
+### 3. Skills Section - Technical Competencies
+![Skills Section](https://via.placeholder.com/800x400?text=Skills+Section+-+Progress+Bars)
+*Styled skill names with visual progress bars*
+
+### 4. Contact Form - Get in Touch
+![Contact Section](https://via.placeholder.com/800x400?text=Contact+Form+-+Message+Input)
+*Contact form with validation and success alerts*
+
+---
+
 ## 🔧 Setup & Installation
 
 ### Prerequisites
