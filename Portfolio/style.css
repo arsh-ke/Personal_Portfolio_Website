@@ -1,0 +1,191 @@
+/* -----------------------
+   Minimal Clean Theme
+------------------------*/
+:root {
+    --bg: linear-gradient(180deg, rgb(70, 70, 176) 0%, rgb(156, 42, 4) 100%);
+    --text: #121111;
+    --accent: #1a73e8;
+    --card-bg: #ffffffd0;
+}
+
+/* Dark mode colors */
+.dark {
+    --bg: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(0,0,80,1) 100%);
+    --text: #eaeaea;
+    --accent: #4d8dff;
+    --card-bg: #161616cc;
+}
+
+/* GLOBAL */
+body {
+    margin: 0;
+    font-family: "Inter", sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    transition: 0.3s ease;
+    text-align: center;
+}
+
+h1, h2, h3 {
+    font-weight: 600;
+}
+
+nav {
+    padding: 12px 0;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    background: var(--card-bg);
+    border-bottom: 1px solid #ddd;
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+
+nav a {
+    color: var(--text);
+    font-size: 15px;
+}
+
+/* Profile */
+.profile-img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-top: 90px;
+    border: 3px solid var(--accent);
+}
+
+.subtitle {
+    color: var(--accent);
+    font-size: 14px;
+}
+
+/* About */
+.about-text {
+    width: 60%;
+    margin: auto;
+    font-size: 15px;
+    line-height: 1.6;
+    margin-bottom: 40px;
+    background: var(--card-bg);
+    padding: 15px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+}
+
+/* Projects */
+.projects-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.project-card {
+    width: 230px;
+    background: var(--card-bg);
+    padding: 15px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+}
+
+/* Skills */
+.skills-section {
+    margin-top: 40px;
+    padding: 30px 0;
+}
+
+.skills-section p {
+    font-weight: 700;
+    color: var(--accent);
+    font-size: 16px;
+    margin-bottom: 8px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.skill-bar {
+    width: 50%;
+    height: 6px;
+    margin: 10px auto;
+    background: #ccc;
+    border-radius: 10px;
+    position: relative;
+}
+
+.skill-bar span {
+    position: absolute;
+    height: 100%;
+    background: var(--accent);
+    border-radius: 10px;
+}
+
+/* Contact */
+.contact-form input,
+.contact-form textarea {
+    width: 40%;
+    padding: 10px;
+    margin: 10px;
+    background: var(--card-bg);
+    border-radius: 6px;
+}
+
+/* Footer */
+footer {
+    margin-top: 40px;
+    padding: 15px 0;
+    background: var(--card-bg);
+}
+
+/* Mode Button */
+#modeToggle {
+    position: fixed;
+    top: 15px;
+    right: 20px;
+    padding: 7px 14px;
+    background: var(--accent);
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+/* Theme toggle small button tweaks */
+#themeToggle.btn-sm {
+    padding: .25rem .5rem;
+    font-size: .78rem;
+}
+
+/* Support data-theme attribute in addition to .dark class */
+:root[data-theme="dark"],
+:root.dark {
+    --bg: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(0,0,80,1) 100%);
+    --text: #eaeaea;
+    --accent: #4d8dff;
+    --card-bg: #161616cc;
+}
+
+/* Button hover/interaction improvements */
+.btn,
+.button,
+.contact-form button {
+    transition: transform .15s ease, box-shadow .15s ease, background-color .12s ease;
+}
+
+.btn:hover,
+.contact-form button:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 24px rgba(16, 24, 40, 0.12);
+}
+
+/* Make contact form inputs responsive on small screens */
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    max-width: 480px;
+}
+
+/* Success alert styling (in-form) */
+.alert {
+    transition: opacity .25s ease;
+}
